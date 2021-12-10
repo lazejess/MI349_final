@@ -94,6 +94,7 @@ label {
 .work {
     background-color: silver;
     background-image: url(background_work.jpeg); 
+    background-size: cover;
 }
 
 
