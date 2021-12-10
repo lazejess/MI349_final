@@ -31,12 +31,12 @@ h5 {
 h1 {
     font-size: 4em;
     font-weight: lighter;
-    text-align: center;
+    display:inline-block
 }
 
 h1 strong {
     font-weight: bold;
-    display: block;
+    display: ublock;
     color:darkorange;
     margin-bottom: 1em;
     align-self:start;
@@ -62,6 +62,7 @@ h5 {
 }
 
 p {
+    display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4em;
 }
@@ -83,27 +84,31 @@ label {
 }
 
 .intro  {
-display: flex;
-text-align: center;
+    position: relative;
+    align-content: center o;
 }
 
 #jesslazeimg {
+    display: flex;
+    align-content: center;
+    grid-area: img;
     width: 400px;
     height:400px;
-    float: center;
-    padding: .75em;
-    image-orientation: center;
+    float: left;
+    margin-bottom: 20px;
 }
 
 .work {
     background-color: darkgray;
-    background-image: url(Unknown-1.jpeg); 
+    background-image: url(backwork.jpg); 
+    background-blend-mode: darken;
     background-size: cover;
     text-align:center;
     color: whitesmoke;
+    justify-content: center;
 }
 .work_body {
-    display: flex;
+    display: -webkit-flex 1 1 100%;
 }
 article {
     padding: 20px;
@@ -115,14 +120,50 @@ article {
     top: 0;
 }
 
-@media (max-width: 400px){
+@media (max-width: 300px){
     section{
-        display:inline;
+        display: inline;
+
     }
     img{
         width: 100%;
-        height: 200px;
+        height: 150px;
     }
+    .intro  {
+        display: -webkit-flex 1 1 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #jesslazeimg {
+        align-content: center;
+        width: 400px;
+        height:400px;
+        float: center;
+        padding: .75em;
+    
+    }
+}
+
+@media (min-width: 800px){
+    .work {
+        background-color: darkgray;
+        background-image: url(backwork.jpg); 
+        background-blend-mode: darken;
+        background-size: cover;
+        text-align:center;
+        color: whitesmoke;
+        justify-content: center;
+    }
+    .work_body {
+        display: flex;
+    }
+    img{
+        width: 100%;
+        height: 150px;
+    }
+    
 }
 
 .card{
@@ -159,6 +200,3 @@ article {
     transition: opacity ease-in-out 0.2s;
 }
 
-.intro {
-    position: relative
-}
