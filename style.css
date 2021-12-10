@@ -109,7 +109,7 @@ label {
     justify-content: center;
 }
 .work_body {
-    display: -webkit-flex;
+    display: flex;
 }
 article {
     padding: 20px;
