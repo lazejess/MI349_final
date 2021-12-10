@@ -1,6 +1,5 @@
 html {
     background-color:peachpuff;
-    padding: 20px;
 }
 body {
     margin: 20px;
@@ -116,8 +115,8 @@ article {
 }
 
 .contactbody{
+    padding:0;
     min-height: 100vh;
-    background:linear-gradient(peachpuff, darkorange)
 }
 nav {
     position: absolute;
