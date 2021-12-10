@@ -35,6 +35,8 @@ h1 strong {
     display: block;
     background: peachpuff;
     margin-bottom: 1em;
+    align-self:start;
+    display: flex;
 }
 
 h2 {
