@@ -31,7 +31,6 @@ h5 {
 h1 {
     font-size: 4em;
     font-weight: lighter;
-    text-align: center;
 }
 
 h1 strong {
@@ -91,6 +90,7 @@ justify-content: center;
 #jesslazeimg {
     width: 400px;
     height:400px;
+    float: center;
     padding: .75em;
     image-orientation: center;
 }
