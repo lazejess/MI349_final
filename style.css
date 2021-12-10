@@ -12,6 +12,12 @@ body {
     
 }
 
+img{
+    display: block;
+    max-width: 100%;
+    border-radius: 1rem;
+}
+
 strong{
     font-weight: bold;
 }
@@ -63,13 +69,6 @@ p {
 section {
     margin-bottom: .25em;
     border-bottom: 5px solid rgb(255, 214, 137);
-}
-
-
-img{
-    display: block;
-    max-width: 100%;
-    border-radius: 1rem;
 }
 
 a[href$=".html"] {
