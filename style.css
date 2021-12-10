@@ -85,10 +85,12 @@ label {
 
 .intro  {
     position: relative;
+    align-content: center;
 }
 
 #jesslazeimg {
     display: flex;
+    align-content: center;
     grid-area: img;
     width: 400px;
     height:400px;
