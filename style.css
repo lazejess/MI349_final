@@ -92,7 +92,7 @@ text-align: center;
     height:400px;
     float: center;
     padding: .75em;
-    border-radius: 50%;
+    image-orientation: center;
 }
 
 .work {
