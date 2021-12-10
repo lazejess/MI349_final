@@ -34,6 +34,7 @@ h1 {
 }
 
 h1 strong {
+    font-weight: bold;
     display: block;
     background: peachpuff;
     margin-bottom: 1em;
