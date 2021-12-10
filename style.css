@@ -36,7 +36,7 @@ h1 {
 
 h1 strong {
     font-weight: bold;
-    display: block;
+    display: ublock;
     color:darkorange;
     margin-bottom: 1em;
     align-self:start;
@@ -109,7 +109,7 @@ u
     justify-content: center;
 }
 .work_body {
-    display: -webkit-flex 1 1 100%;
+    display: -webkit-flex;
 }
 article {
     padding: 20px;
