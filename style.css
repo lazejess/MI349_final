@@ -110,7 +110,6 @@ label {
     justify-content: center;
 }
 .work_body {
-    display: flex;
     display: -webkit-flex 1 1 100%;
 }
 article {
@@ -132,18 +131,7 @@ article {
         width: 100%;
         height: 150px;
     }
-    .work {
-        background-color: darkgray;
-        background-image: url(backwork.jpg); 
-        background-blend-mode: darken;
-        background-size: cover;
-        text-align:center;
-        color: whitesmoke;
-        justify-content: center;
-    }
-    .work_body {
-        display: -webkit-flex 1 1 100%;
-    }
+    
 }
 
 .card{
