@@ -171,12 +171,6 @@ article {
     #jesslazeimg {
         grid-area: img;
         min-width: 250px;
-        align-content: center;
-        width: 400px;
-        height:400px;
-        float: center;
-        padding: .75em;
-    
     }
     
 }
