@@ -31,7 +31,6 @@ h5 {
 h1 {
     font-size: 4em;
     font-weight: lighter;
-    display: block;
 }
 
 h1 strong {
@@ -96,6 +95,7 @@ label {
     float: center;
     padding: .75em;
 }
+
 
 .work {
     background-color: darkgray;
