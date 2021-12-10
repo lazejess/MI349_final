@@ -99,6 +99,7 @@ align-items: center;
 .work {
     background-color: darkgray;
     background-image: url(backwork.jpg); 
+    background-blend-mode: darken;
     background-size: cover;
     text-align:center;
     color: whitesmoke;
