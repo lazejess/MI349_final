@@ -79,14 +79,13 @@ label {
 
 .intro  {
 display: flex;
-display: grid;
-grid-column-gap: 1em;
 }
 
 #jesslazeimg {
     width: 400px;
     height:400px;
     float: left;
+    padding: 20%
 
 }
 
