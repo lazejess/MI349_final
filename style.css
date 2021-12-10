@@ -83,7 +83,7 @@ label {
 }
 
 .intro  {
-display: flex;
+display: -webkit-flex;
 justify-content: center;
 align-items: center;
 }
@@ -106,7 +106,7 @@ align-items: center;
     justify-content: center;
 }
 .work_body {
-    display: flex;
+    display: -webkit-flex;
 }
 article {
     padding: 20px;
