@@ -110,7 +110,7 @@ article {
 }
 nav {
     position: absolute;
-    padding:50%;
+    padding:0;
     top:0;
     left:0;
     width: 100%;
