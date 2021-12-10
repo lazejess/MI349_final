@@ -124,7 +124,6 @@ article {
 
 @media (max-width: 300px){
     section{
-        display:inline;
         display: -webkit-flex 1 1 100%;
 
     }
