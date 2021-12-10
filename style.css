@@ -97,6 +97,14 @@ img{
     width: 100%;
 
 }
+
+#jessimage{
+    width: 200px ;  
+    height: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
 .card{
     background-color: #f3f3f3;
     border-radius: 15px;
