@@ -111,6 +111,7 @@ label {
 }
 .work_body {
     display: -webkit-flex 1 1 100%;
+    display: flex;
 }
 article {
     padding: 20px;
