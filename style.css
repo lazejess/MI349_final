@@ -12,9 +12,7 @@ body {
     
 }
 
-header {
-    background: peachpuff;
-}
+
 section {
     padding: 20px;
 }
@@ -89,8 +87,8 @@ label {
 #jesslazeimg {
     display: flex;
     grid-area: img;
-    width: 400px;
-    height:300px;
+    width: 500px;
+    height:400px;
     float: left;
     margin-right: 20px;
 
