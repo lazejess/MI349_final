@@ -1,10 +1,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 20px;
-    padding: 20px;
     color:black;
-    border-top: 10px solid orange;
     background-color:whitesmoke ;
     
 }
@@ -54,7 +51,7 @@ h4 {
 
 }
 h5 {
-    font-size: 2em;
+    font-size: 1.5em;
     background-color: peachpuff;
 }
 
