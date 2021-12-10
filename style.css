@@ -83,13 +83,11 @@ label {
     width: 400px;
     height:400px;
     float: left;
-    margin-right: 20px;
+    margin-bottom: 20px;
 
 }
 
 .work {
-    padding:20px;
-    margin: 20px;
     background-color: silver;
     background-image: url(Unknown-1.jpeg); 
     background-size: cover;
