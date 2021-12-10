@@ -84,10 +84,9 @@ label {
 .intro  {
 display: -webkit-flex 1 1 100%;
 align-items: center;
-text-align: center;
+text-align: left;
 justify-content: center;
 }
-
 
 #jesslazeimg {
     align-content: center;
