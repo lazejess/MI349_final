@@ -39,7 +39,7 @@ h1 strong {
     display: block;
     color:darkorange;
     margin-bottom: 1em;
-    text-shadow: 1em;
+    text-shadow: dimgray;
 }
 
 h2 {
@@ -108,7 +108,16 @@ article {
     position: sticky;
     top: 0;
 }
-
+nav {
+    postion: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    padding: 30px 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 @media (max-width: 300px){
     section{
         display: inline;
