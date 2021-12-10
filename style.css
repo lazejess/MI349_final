@@ -77,21 +77,10 @@ label {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.intro {
-    display: grid;
-    width:min-content;
-    margin: 0 auto;
-    grid-template-areas:
-        "jesslazeimg";
-    grid-template-columns: min-content max-content;
-    grid-column-gap: 1em;
-}
 
 #jesslazeimg {
     display: flex;
-    grid-area: img;
     min-width: 400px;
-    float: left;
     margin-bottom: 20px;
 
 }
