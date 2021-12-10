@@ -84,6 +84,7 @@ label {
 .intro  {
 display: -webkit-flex 1 1 100%;
 align-items: center;
+text-align-last: center;
 justify-content: center;
 }
 
