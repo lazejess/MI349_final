@@ -77,6 +77,16 @@ label {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.intro {
+    display: grid;
+    width:min-content;
+    margin: 0 auto;
+    grid-template-areas:
+        "jesslazeimg";
+    grid-template-columns: min-content max-content;
+    grid-column-gap: 1em;
+}
+
 #jesslazeimg {
     display: flex;
     grid-area: img;
@@ -88,10 +98,11 @@ label {
 }
 
 .work {
-    background-color: silver;
+    background-color: darkgray;
     background-image: url(Unknown-1.jpeg); 
     background-size: cover;
     color: whitesmoke;
+    text-align:center;
 }
 
 .sticky {
