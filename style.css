@@ -84,21 +84,17 @@ label {
 }
 
 .intro  {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+    position: relative;
 }
 
 #jesslazeimg {
-    align-content: center;
+    display: flex;
+    grid-area: img;
     width: 400px;
     height:400px;
-    float: center;
-    padding: .75em;
-
+    float: left;
+    margin-bottom: 20px;
 }
-
 
 .work {
     background-color: darkgray;
