@@ -86,16 +86,6 @@ label {
     position: relative;
 }
 
-#jesslazeimg {
-    display: flex;
-    align-content: center;
-    grid-area: img;
-    width: 400px;
-    height:400px;
-    float: left;
-    margin-bottom: 20px;
-}
-
 .work {
     background-color: darkgray;
     background-image: url(backwork.jpg); 
@@ -118,7 +108,7 @@ article {
     top: 0;
 }
 
-@media (max-width: 400px){
+@media (max-width: 300px){
     section{
         display: inline;
 
