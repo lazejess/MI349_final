@@ -31,12 +31,11 @@ h5 {
 h1 {
     font-size: 4em;
     font-weight: lighter;
-    display:inline-block
 }
 
 h1 strong {
     font-weight: bold;
-    display: ublock;
+    display: block;
     color:darkorange;
     margin-bottom: 1em;
     align-self:start;
