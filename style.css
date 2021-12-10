@@ -12,6 +12,11 @@ body {
     
 }
 
+.strong{
+    display:block;
+    font-weight: bold;
+}
+
 h1,
 h3,
 h4 {
