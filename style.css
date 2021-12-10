@@ -118,7 +118,7 @@ article {
     top: 0;
 }
 
-@media (max-width: 300px){
+@media (max-width: 400px){
     section{
         display: inline;
 
@@ -144,7 +144,7 @@ article {
     }
 }
 
-@media (min-width: 800px){
+@media (min-width: 400px){
     .work {
         background-color: darkgray;
         background-image: url(backwork.jpg); 
