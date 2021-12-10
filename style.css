@@ -90,6 +90,7 @@ label {
 #jesslazeimg {
     display: flex;
     grid-area: img;
+    min-width: 250px;
     width: 400px;
     height:400px;
     float: left;
