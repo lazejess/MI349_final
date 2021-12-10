@@ -50,7 +50,7 @@ p {
 
 section {
     display: flex;
-    border-top: 10px solid orange;
+    border-bottom: 5px solid rgb(255, 214, 137);
 }
 
 
