@@ -110,6 +110,7 @@ label {
 }
 .work_body {
     display: flex;
+    display: -webkit-flex;
 }
 article {
     padding: 20px;
@@ -124,7 +125,6 @@ article {
 @media (max-width: 300px){
     section{
         display:inline;
-        position:relative
     }
     img{
         width: 100%;
