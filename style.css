@@ -103,7 +103,10 @@ display: flex;
 .work_body {
     display: flex;
 }
-
+article {
+    padding: 20px;
+    margin: 20px;
+}
 .sticky {
     position: -webkit-sticky;
     position: sticky;
