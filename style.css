@@ -101,6 +101,9 @@ display: flex;
     text-align:center;
     color: whitesmoke;
 }
+.work_body {
+    display: flex;
+}
 
 .sticky {
     position: -webkit-sticky;
