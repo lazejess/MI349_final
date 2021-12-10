@@ -83,7 +83,7 @@ label {
 
 .intro  {
 display: flex;
-align-self: center;
+text-align: center;
 }
 
 #jesslazeimg {
@@ -91,7 +91,7 @@ align-self: center;
     height:400px;
     float: center;
     padding: .75em;
-
+    text-align: center;
 }
 
 .work {
