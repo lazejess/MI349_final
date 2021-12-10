@@ -94,7 +94,10 @@ label {
 
 }
 
-
+.about{
+    background:rgb(85, 85, 85);
+    color: whitesmoke
+}
 .sticky {
     position: -webkit-sticky;
     position: sticky;
