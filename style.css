@@ -83,6 +83,14 @@ label {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+#jesslazeimg {
+    display: flexbox;
+    grid-area: img;
+    width: 400px;
+    height:300px;
+
+}
+
 
 .sticky {
     background: peachpuff;
