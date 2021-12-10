@@ -33,15 +33,14 @@ h1 {
 h1 strong {
     font-weight: bold;
     display: block;
-    background: peachpuff;
-    background-size:contain;
+    color:darkorange;
     margin-bottom: 1em;
     align-self:start;
 }
 
 h2 {
     font-size: 3em;
-    color: rgb(255, 153, 0);
+    color:darkorange;
 
 }
 h3 {
@@ -55,7 +54,7 @@ h4 {
 }
 h5 {
     font-size: 1.5em;
-    color: peru
+    color: darkorange
 }
 
 p {
