@@ -15,6 +15,9 @@ section {
     margin: 20px;
 }
 
+strong{
+    font-weight: bold;
+}
 
 h1,
 h3,
@@ -27,8 +30,15 @@ h5 {
 }
 h1 {
     font-size: 4em;
+    font-weight: lighter;
 }
 
+h1 strong {
+    font-weight: bold;
+    display: block;
+    color:darkorange;
+    margin-bottom: 1em;
+}
 
 h2 {
     font-size: 3em;
@@ -50,6 +60,7 @@ h5 {
 }
 
 p {
+    display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4em;
 }
@@ -71,39 +82,91 @@ label {
 }
 
 .intro  {
-display: flex;
-}
-
-#jesslazeimg {
-    width: 400px;
-    height:400px;
-    float: left;
-    padding: .75em;
-
+    position: relative;
 }
 
 .work {
     background-color: darkgray;
-    background-image: url(Unknown-1.jpeg); 
+    background-image: url(backwork.jpg); 
+    background-blend-mode: darken;
     background-size: cover;
-    color: whitesmoke;
     text-align:center;
+    color: whitesmoke;
+    justify-content: center;
 }
-
+.work_body {
+    display: -webkit-flex 1 1 100%;
+}
+article {
+    padding: 20px;
+    margin: 20px;
+}
 .sticky {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
 }
 
-@media (max-width: 400px){
+@media (max-width: 300px){
     section{
-        display:inline;
+        display: inline;
+
     }
     img{
         width: 100%;
-        height: 200px;
+        height: 150px;
     }
+    .intro  {
+        display: -webkit-flex 1 1 100%;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    #jesslazeimg {
+        align-content: center;
+        width: 400px;
+        height:400px;
+        float: center;
+        padding: .75em;
+    
+    }
+}
+
+@media (min-width: 400px){
+    .work {
+        background-color: darkgray;
+        background-image: url(backwork.jpg); 
+        background-blend-mode: darken;
+        background-size: cover;
+        text-align:center;
+        color: whitesmoke;
+        justify-content: center;
+    }
+    .work_body {
+        display: flex;
+    }
+    img{
+        width: 100%;
+        height: 150px;
+    }
+    .intro {
+        display: grid;
+        width:min-content;
+        margin: 0 auto;
+        grid-column-gap: 1em;
+        grid-template-areas:
+            "img title"
+            "img subtitle";
+        grid-template-columns: min-content max-content;
+    }
+    #jesslazeimg {
+        grid-area: img;
+        width: 400px;
+        height: 400px;
+        min-width: 250px;
+    }
+    
 }
 
 .card{
@@ -138,8 +201,4 @@ display: flex;
 .contacts li a img:hover {
     opacity: 0.5;
     transition: opacity ease-in-out 0.2s;
-}
-
-.intro {
-    position: relative
 }
