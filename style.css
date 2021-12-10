@@ -82,13 +82,14 @@ label {
 }
 
 .intro  {
-display: flex;
+display: -webkit-flex 1 1 100%;
 align-items: center;
 justify-content: center;
 text-align: center;
 }
 
 #jesslazeimg {
+    align-content: center;
     width: 400px;
     height:400px;
     float: center;
@@ -118,7 +119,7 @@ article {
     top: 0;
 }
 
-@media (max-width: 400px){
+@media (max-width: 500px){
     section{
         display:inline;
     }
