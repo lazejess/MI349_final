@@ -34,7 +34,7 @@ h1 strong {
     font-weight: bold;
     display: block;
     background: peachpuff;
-    background-size: cover;
+    background-size:contain;
     margin-bottom: 1em;
     align-self:start;
 }
