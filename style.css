@@ -1,15 +1,21 @@
+html {
+    background-color:whitesmoke
+}
 body {
+    font-family: Arial, Helvetica, sans-serif;
     margin: 20px;
     padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
     color:black;
+    border-top: 10px solid orange;
     background-color:whitesmoke ;
     
 }
 
+header {
+    background: peachpuff;
+}
 section {
     padding: 20px;
-    margin: 20px;
 }
 
 strong{
@@ -39,26 +45,29 @@ h1 strong {
 h2 {
     font-size: 3em;
     color: rgb(255, 153, 0);
-
+    margin: 0;
+    line-height: 2em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h3 {
     font-size: 3em;
 }
 
 h4 {
-    color:whitesmoke;
     font-size: 1.5em;
 
 }
 h5 {
-    font-size: 1.5em;
-    color: peru
+    font-size: 2em;
+    background-color: peachpuff;
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4em;
 }
+
+
 
 img{
     display: block;
@@ -76,33 +85,16 @@ label {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.intro {
-    display: grid;
-    width:min-content;
-    margin: 0 auto;
-    grid-template-areas:
-        "jesslazeimg";
-    grid-template-columns: min-content max-content;
-    grid-column-gap: 1em;
-}
-
 #jesslazeimg {
     display: flex;
     grid-area: img;
     width: 400px;
-    height:400px;
+    height:300px;
     float: left;
-    margin-bottom: 20px;
+    margin-right: 20px;
 
 }
 
-.work {
-    background-color: darkgray;
-    background-image: url(Unknown-1.jpeg); 
-    background-size: cover;
-    color: whitesmoke;
-    text-align:center;
-}
 
 .sticky {
     position: -webkit-sticky;
@@ -119,6 +111,7 @@ label {
         height: 200px;
     }
 }
+
 
 .card{
     background-color: #f3f3f3;
