@@ -85,7 +85,7 @@ label {
 .intro  {
     display: flex;
     position: relative;
-    align-content: center o;
+    align-content: center;
 }
 
 #jesslazeimg {
