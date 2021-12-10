@@ -12,6 +12,9 @@ body {
     
 }
 
+header {
+    background: peachpuff;
+}
 section {
     padding: 20px;
 }
