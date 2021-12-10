@@ -33,6 +33,7 @@ h1 {
 }
 
 h1 strong {
+    font-weight: bold;
     display: block;
     color:darkorange;
     margin-bottom: 1em;
