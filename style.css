@@ -156,12 +156,16 @@ article {
         width:min-content;
         margin: 0 auto;
         grid-column-gap: 1em;
+        grid-template-areas:
+            "img title"
+            "img subtitle";
         grid-template-columns: min-content max-content;
     }
     #jesslazeimg {
         grid-area: img;
         width: 400px;
         height: 400px;
+        min-width: 250px;
     }
     
 }
