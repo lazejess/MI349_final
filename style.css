@@ -39,6 +39,7 @@ h1 strong {
     display: block;
     color:darkorange;
     margin-bottom: 1em;
+    text-shadow: 1em;
 }
 
 h2 {
