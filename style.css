@@ -91,7 +91,6 @@ justify-content: center;
 #jesslazeimg {
     width: 400px;
     height:400px;
-    float: center;
     padding: .75em;
     image-orientation: center;
 }
