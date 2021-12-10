@@ -160,7 +160,8 @@ article {
     }
     #jesslazeimg {
         grid-area: img;
-        min-width: 250px;
+        width: 400px;
+        height: 400px;
     }
     
 }
