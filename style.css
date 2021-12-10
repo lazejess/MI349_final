@@ -60,6 +60,11 @@ h5 {
     font-size: 1.5em;
     color: darkorange
 }
+h6 {
+    font-size: 1.5em;
+    color: black;
+    font:lighter;
+}
 
 p {
     display: inline-block;
@@ -113,7 +118,7 @@ nav {
     top:0;
     left:0;
     width: 100%;
-    padding: 30px 100px;
+    padding: 20px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
