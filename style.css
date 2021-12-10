@@ -109,7 +109,7 @@ u
     justify-content: center;
 }
 .work_body {
-    display: -webkit-flex;
+    display: -webkit-flex 100%;
 }
 article {
     padding: 20px;
