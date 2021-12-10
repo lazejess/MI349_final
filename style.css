@@ -124,6 +124,7 @@ article {
 @media (max-width: 300px){
     section{
         display:inline;
+        position:relative
     }
     img{
         width: 100%;
