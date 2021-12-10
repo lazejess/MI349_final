@@ -31,7 +31,7 @@ h5 {
 h1 {
     font-size: 4em;
     font-weight: lighter;
-    display: contents;
+    display: block;
 }
 
 h1 strong {
@@ -83,10 +83,10 @@ label {
 }
 
 .intro  {
-display: -webkit-flex 1 1 100%;
-align-items: center;
-text-align: center;
-justify-content: center;
+    display: -webkit-flex 1 1 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 }
 
 #jesslazeimg {
