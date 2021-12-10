@@ -78,7 +78,7 @@ label {
 }
 
 .intro {
-    display: grid;
+    display: flex;
     width:min-content;
     margin: 0 auto;
     grid-template-areas:
