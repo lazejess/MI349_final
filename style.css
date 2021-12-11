@@ -76,8 +76,9 @@ img{
     max-width: 100%;
 }
 
-header{
+nav{
     justify-content: center;
+    align-items: center;
 }
 nav ul{
     display: flex;
