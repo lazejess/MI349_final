@@ -142,6 +142,7 @@ article {
     height: 100vh;
     background: peachpuff;
     z-index:1;
+    display:none;
 }
 
 .popup .content{
@@ -167,14 +168,16 @@ article {
     color: whitesmoke;
     font-size: 20px;
     font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
 }
 
 .popup .active .overlay{
     display: block;
-
 }
 
-.popup .active .content {
+.popup.active .content {
     transition: all 300ms ease-in-out;
     transform: translate(-50%, -50%) scale(0);
 }
