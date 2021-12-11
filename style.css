@@ -115,6 +115,7 @@ label {
 }
 
 .work {
+    display: -webkit-flex 1 1 100%;
     background-color: darkgray;
     background-image: url(backwork.jpg); 
     background-blend-mode: darken;
