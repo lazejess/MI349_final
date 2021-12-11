@@ -76,21 +76,6 @@ img{
     max-width: 100%;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-nav ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-nav ul li{
-    list-style: none;
-    margin-left: 20px;
-}
 
 nav ul li a{
     text-decoration: none;
@@ -113,6 +98,10 @@ label {
 .intro  {
     position: relative;
 }
+#text{
+    position:absolute;
+}
+
 
 .work {
     background-color: darkgray;
@@ -228,6 +217,34 @@ article {
         width: 400px;
         height: 400px;
         min-width: 250px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav ul li{
+        list-style: none;
+        margin-left: 20px;
+    }
+    
+    nav ul li a{
+        text-decoration: none;
+        padding: 6px 15px;
+        color: darkorange;
+        font-weight: bold;
+    }
+    
+    nav ul li a:hover{
+        background: orange;
+        color: whitesmoke;
+        font-weight: bold;
     }
     
 }
