@@ -173,7 +173,7 @@ article {
     border-radius: 50%;
 }
 
-.popup .active .overlay{
+.popup.active .overlay{
     display: block;
 }
 
