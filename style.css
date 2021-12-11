@@ -134,6 +134,9 @@ label {
     color: whitesmoke;
     justify-content: center;
 }
+.work {
+    display: flex;
+}
 
 
 
