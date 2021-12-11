@@ -85,7 +85,6 @@ nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: darkorange;
 }
 
 nav ul li{
@@ -123,10 +122,11 @@ label {
 }
 
 .intro  {
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top: darkorange;
 }
 
 .work {
