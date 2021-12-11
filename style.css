@@ -213,7 +213,7 @@ article {
     }
     
     #jesslazeimg {
-        align-content: center;
+        align-items: center;
         width: 350px;
         height:350px;
         float: center;
@@ -258,10 +258,11 @@ article {
         grid-template-columns: min-content max-content;
     }
     #jesslazeimg {
-        grid-area: img;
+        align-items: center;
         width: 400px;
-        height: 400px;
-        min-width: 250px;
+        height:400px;
+        float: center;
+        padding: .75em;
     }
     .work_body {
         display: block;
