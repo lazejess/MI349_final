@@ -98,12 +98,12 @@ nav ul li a{
     color: darkorange;
     font-weight: bold;
 }
-.contacts ul li{
+.contacts li{
     list-style: none;
     margin-left: 20px;
 }
 
-.contacts ul li a{
+.contacts li a{
     text-decoration: none;
     padding: 6px 15px;
     color: darkorange;
