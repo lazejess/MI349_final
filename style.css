@@ -162,7 +162,8 @@ article {
         align-items: center;
     }
     nav ul{
-        display: flex;
+        display: -webkit-flex 1 1 100%;
+        list-style-type: style;
         justify-content: center;
         align-items: center;
     }
