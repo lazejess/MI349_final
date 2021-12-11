@@ -157,7 +157,7 @@ article {
     
     }
     nav{
-        display: webkit-flex 1 1 100%;
+        display: -webkit-flex 1 1 100%;
         justify-content: space-between;
         align-items: center;
     }
