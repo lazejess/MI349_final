@@ -76,6 +76,16 @@ img{
     max-width: 100%;
 }
 
+header{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:30px 100px;
+    display: -webkit-flex 1 1 100%;
+    justify-content: space-between;
+    align-items: center;
+}
 nav ul{
     display: flex;
     justify-content: center;
@@ -123,15 +133,7 @@ article {
     padding: 20px;
     margin: 20px;
 }
-.sticky {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-}
 
-header {
-    border-bottom: darkorange;
-}
 
 @media (max-width: 300px){
     section{
