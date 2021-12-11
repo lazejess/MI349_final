@@ -157,6 +157,15 @@ article {
         height:400px;
         float: center;
         padding: .75em;
+    }
+    .work_body {
+        display: -webkit-flex 1 1 100%;
+        }
+    article {
+        display: block;
+        padding: 20px;
+        margin: 20px;
+    }
     
     }
     
