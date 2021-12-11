@@ -225,7 +225,7 @@ article {
         display: block;
     }  
     .work_body {
-        display: block;
+        display: -webkit-flex 1 1 100%;
         align-items: center;
         text-align: center;
         justify-content: center;
