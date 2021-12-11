@@ -161,6 +161,9 @@ article {
     article {
         display: block;
     }  
+    .work_body {
+        display: flex;
+    }
 }
 
 @media (min-width: 400px){
