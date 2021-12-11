@@ -251,15 +251,11 @@ article {
         height: 350px;
     }
     .intro {
-        display: grid;
-        width:min-content;
-        margin: 0 auto;
-        grid-column-gap: 1em;
-        grid-template-areas:
-            "img title"
-            "img subtitle";
-        grid-template-columns: min-content max-content;
-    }
+            display: -webkit-flex 1 1 100%;
+            align-items: center;
+            text-align: center;
+            justify-content: center;
+        }
     #jesslazeimg {
         align-items: center;
         width: 400px;
