@@ -138,8 +138,8 @@ article {
     position: fixed;
     top: 0;
     left:0;
-    width: 75%;
-    height: 75%;
+    width: 100vw;
+    height: 100vw;
     background: peachpuff;
     z-index:1;
 }
