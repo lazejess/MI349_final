@@ -165,7 +165,7 @@ article {
         margin: 20px;
     }
     .work_body {
-        display: -webkit-flex 1 1 100%;
+        display: flex;
         }   
 }
 
