@@ -156,6 +156,16 @@ article {
         padding: .75em;
     
     }
+    nav{
+        display: webkit-flex 1 1 100%;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (min-width: 400px){
