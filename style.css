@@ -266,7 +266,7 @@ article {
         min-width: 250px;
     }
     .work_body {
-        display: -webkit-flex 1 1 100%;
+        display: -webkit-flex 1 1 85%;
         align-items: center;
         text-align: center;
         justify-content: center;
