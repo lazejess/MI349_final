@@ -160,7 +160,7 @@ article {
         padding: .75em;
     }
     .work_body {
-        display: -webkit-flex;
+        display: -webkit-flex 1 1 100%;
         }   
 }
 
