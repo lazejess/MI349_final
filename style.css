@@ -162,7 +162,6 @@ article {
         display: -webkit-flex 1 1 100%;
         }
     article {
-        display: block;
         padding: 20px;
         margin: 20px;
     }
