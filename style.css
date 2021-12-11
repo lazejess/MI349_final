@@ -266,7 +266,7 @@ article {
         min-width: 250px;
     }
     .work_body {
-        display: flex;
-        text-align: center;
+        display: block;
+        align-items: center;
     }
 }
