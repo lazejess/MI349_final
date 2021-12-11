@@ -152,7 +152,7 @@ article {
     transform:translate(-50%,-50%) scale(0);
     background: whitesmoke;
     width: 450px;
-    height:250px;
+    height:450px;
     z-index: 2;
     padding: 20px;
     box-sizing: border-box;
