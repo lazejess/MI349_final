@@ -157,12 +157,16 @@ article {
     
     }
     nav{
+        display: -webkit-flex 1 1 100%;
         align-items: center;
+        text-align: center;
+        justify-content: center;
     }
     nav ul{
-        display:block;
-        justify-content: center;
+        display: -webkit-flex 1 1 100%;
         align-items: center;
+        text-align: center;
+        justify-content: center;
     }
 }
 
