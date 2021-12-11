@@ -159,9 +159,7 @@ article {
         padding: .75em;
     
     }
-    .work_body {
-        display: -webkit-flex 1 1 100%;
-    }
+    
 }
 
 @media (min-width: 400px){
