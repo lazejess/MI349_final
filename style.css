@@ -7,7 +7,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color:black;
     background-color:whitesmoke ;
-    size:100%
+    
 }
 
 section {
@@ -39,7 +39,6 @@ h1 strong {
     display: block;
     color:darkorange;
     margin-bottom: 1em;
-    text-shadow: dimgray;
 }
 
 h2 {
@@ -59,11 +58,6 @@ h4 {
 h5 {
     font-size: 1.5em;
     color: darkorange
-}
-h6 {
-    font-size: 1.5em;
-    color: black;
-    font:lighter;
 }
 
 p {
@@ -112,46 +106,6 @@ article {
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-}
-
-.contactbody{
-    padding:0;
-    min-height: 100vh;
-}
-nav {
-    position: absolute;
-    top:0;
-    left:0;
-    width: 100%;
-    padding: 20px 100px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-nav .logo{
-    font-size: 2em;
-}
-
-nav ul{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-nav ul li{
-    list-style: none;
-    margin-left: 20px;
-}
-
-nav ul li a{
-    text-decoration: none;
-    padding: 6px 15px;
-    color: darkorange
-}
-
-nav ul li a:hover{
-    background: orange;
-    color: whitesmoke
 }
 
 @media (max-width: 300px){
