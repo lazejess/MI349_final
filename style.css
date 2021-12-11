@@ -162,6 +162,7 @@ article {
         align-items: center;
     }
     nav ul{
+        display:block;
         justify-content: center;
         align-items: center;
     }
