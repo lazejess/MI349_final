@@ -185,6 +185,15 @@ article {
         color: whitesmoke;
         font-weight: bold;
     }
+
+    body {
+        margin: 10px;
+        padding: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color:black;
+        background-color:whitesmoke ;
+        
+    }
 }
 
 @media (min-width: 400px){
