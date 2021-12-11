@@ -99,7 +99,7 @@ nav ul li a{
     font-weight: bold;
 }
 .contacts li{
-    list-style: none;
+    list-style-type: style;
     margin-left: 20px;
 }
 
