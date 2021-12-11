@@ -22,8 +22,7 @@ strong{
 h1,
 h3,
 h4,
-h5,
-h6 {
+h5 {
     color: black;
     margin: 0;
     line-height: 1.5em;
@@ -31,8 +30,8 @@ h6 {
 }
 h1 {
     font-size: 4em;
-    font-weight: bold;
-    color:darkorange;
+    font-weight: lighter;
+    display: block;
 }
 
 h1 strong {
@@ -40,6 +39,7 @@ h1 strong {
     display: block;
     color:darkorange;
     margin-bottom: 1em;
+    align-self:start;
 }
 
 h2 {
@@ -61,12 +61,7 @@ h5 {
     color: darkorange
 }
 
-h6 {
-    font-size: 1.5em;
-}
-
 p {
-    display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.4em;
 }
@@ -76,45 +71,11 @@ img{
     max-width: 100%;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-nav ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-nav ul li{
-    list-style: none;
-    margin-left: 20px;
-}
-
-nav ul li a{
-    text-decoration: none;
-    padding: 6px 15px;
-    color: darkorange;
-    font-weight: bold;
-}
-.contacts li{
-    list-style-type: style;
-    margin-left: 20px;
-}
-
-.contacts li a{
-    text-decoration: none;
-    padding: 6px 15px;
-    color: darkorange;
-    font-weight: bold;
-}
-
-nav ul li a:hover{
-    background: orange;
-    color: whitesmoke;
-    font-weight: bold;
-}
+a[href$=".html"] {
+    font-style: italic;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
 label {
     line-height: 3em;
@@ -122,7 +83,18 @@ label {
 }
 
 .intro  {
-    position: relative;
+    display: -webkit-flex 1 1 100%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#jesslazeimg {
+    align-content: center;
+    width: 400px;
+    height:400px;
+    float: center;
+    padding: .75em;
 }
 
 .work {
@@ -134,7 +106,9 @@ label {
     color: whitesmoke;
     justify-content: center;
 }
-
+.work_body {
+    display: -webkit-flex 1 1 100%;
+}
 article {
     padding: 20px;
     margin: 20px;
@@ -145,120 +119,50 @@ article {
     top: 0;
 }
 
-.popup .overlay {
-    position: fixed;
-    top: 0px;
-    left:0px;
-    width: 100vw;
-    height: 100vh;
-    background: peachpuff;
-    z-index:1;
-    display:none;
-}
-
-.popup .content{
-    position: absolute;
-    top:  50%;
-    left: 50%;
-    transform:translate(-50%,-50%) scale(0);
-    background: whitesmoke;
-    width: 450px;
-    height:450px;
-    z-index: 2;
-    padding: 20px;
-    box-sizing: border-box;
-}
-
-.popup .close-btn{
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    width:30px;
-    height:30px;
-    background: darkorange;
-    color: whitesmoke;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 30px;
-    text-align: center;
-    border-radius: 50%;
-}
-
-.popup.active .overlay{
-    display: block;
-}
-
-.popup.active .content {
-    transition: all 300ms ease-in-out;
-    transform: translate(-50%, -50%) scale(1);
-}
-
-@media (max-width: 400px){
+@media (max-width: 300px){
     section{
-        display: inline;
-
+        display:inline;
     }
     img{
         width: 100%;
         height: 150px;
-    }
-    .intro  {
-        display: -webkit-flex 1 1 100%;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
-    
-    #jesslazeimg {
-        align-content: center;
-        width: 400px;
-        height:400px;
-        float: center;
-        padding: .75em;
-    }
-    article {
-        display: block;
-    }  
-    .work_body {
-        display: block;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
     }
 }
 
-@media (min-width: 400px){
-    .work {
-        background-color: darkgray;
-        background-image: url(backwork.jpg); 
-        background-blend-mode: darken;
-        background-size: cover;
-        text-align:center;
-        color: whitesmoke;
-        justify-content: center;
-    }
-    .work_body {
-        display: flex;
-    }
-    img{
-        width: 100%;
-        height: 150px;
-    }
-    .intro {
-        display: grid;
-        width:min-content;
-        margin: 0 auto;
-        grid-column-gap: 1em;
-        grid-template-areas:
-            "img title"
-            "img subtitle";
-        grid-template-columns: min-content max-content;
-    }
-    #jesslazeimg {
-        grid-area: img;
-        width: 400px;
-        height: 400px;
-        min-width: 250px;
-    }
-    
+.card{
+    background-color: #f3f3f3;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 400px;
+    text-align: center;
+    box-shadow: rgba(0,0,0,0.1) 0 10px 10px;
+    border: 1px solid #aaa;
+}
+
+.card .avatar{
+    box-shadow: rgba(0,0,0,0.1) 0 10px 10px;
+    width: 90px;
+    border-radius: 50%;
+    margin-top: -50px;
+
+}
+
+.contacts {
+    margin:0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.contacts li {
+    width: 30px;
+    display: inline-block;
+    padding: 20px 10px;
+}
+.contacts li a img:hover {
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
+.intro {
+    position: relative
 }
