@@ -136,8 +136,8 @@ article {
 
 .popup .overlay {
     position: fixed;
-    top: 0;
-    left:0;
+    top: 0px;
+    left:0px;
     width: 100vw;
     height: 100vh;
     background: peachpuff;
@@ -150,6 +150,8 @@ article {
     left: 50%;
     transform:translate(-50%,-50%);
     background: whitesmoke;
+    width: 450px;
+    height:250px;
     text-align:center;
     padding: 20px;
     box-sizing: border-box;
