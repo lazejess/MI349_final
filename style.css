@@ -77,18 +77,7 @@ img{
 }
 
 
-nav ul li a{
-    text-decoration: none;
-    padding: 6px 15px;
-    color: darkorange;
-    font-weight: bold;
-}
 
-nav ul li a:hover{
-    background: orange;
-    color: whitesmoke;
-    font-weight: bold;
-}
 
 label {
     line-height: 3em;
@@ -146,29 +135,13 @@ article {
     
     }
 
-    nav{
-        display: -webkit-flex 1 1 100%;
-        justify-content: center;
-        align-items: center;
-    }
-    nav ul{
-        display: -webkit-flex 1 1 100%;
-        justify-content: center;
-        align-items: center;
-    }
-
-    nav ul li{
-        list-style: none;
-        margin-left: 20px;
-    }
-
     nav ul li a{
         text-decoration: none;
         padding: 6px 15px;
         color: darkorange;
         font-weight: bold;
     }
-
+    
     nav ul li a:hover{
         background: orange;
         color: whitesmoke;
